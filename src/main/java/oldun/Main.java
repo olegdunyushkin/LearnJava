@@ -1,17 +1,40 @@
 package oldun;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
-    static void main() {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        IO.println(String.format("Hello and welcome!"));
+    public static void main(String[] args) {
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            IO.println("i = " + i);
-        }
+// Zadaem peremennie
+
+        int A = 1;
+        int B = 2;
+        double C = 33.3;
+        double D = Double.MAX_VALUE;
+
+// Zadanie 1:
+
+        System.out.println(A + B);
+        System.out.println(A - B);
+        System.out.println(A * B);
+        System.out.println(A / B);
+
+// Zadanie 2:
+
+        System.out.println(A * C);
+        System.out.println(C * C);
+        System.out.println(B * D);
+
+// Zadanie 3:
+        System.out.println(A > B);
+        System.out.println(A < B);
+        System.out.println(A != B);
+        System.out.println(A == B);
+        System.out.println(C >= B);
+        System.out.println(C == C);
+        System.out.println(C <= B);
+
+// Zadanie 4:
+        System.out.println(D * D);
+        System.out.println(D / D);
+        System.out.println(A + D);
     }
 }
